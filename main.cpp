@@ -83,37 +83,6 @@ struct BrickData
 	double width;
 };
 
-/*void init_bricks(BrickData *bricks, int number_of_rectangles)
-{
-	int gap_x = 45;
-	int gap_y = 15;
-
-	for (int i = 0; i < number_of_rectangles; i++)
-	{
-
-		bricks[i].x = 5;
-		bricks[i].y = 10;
-		bricks[i].width = 40;
-		bricks[i].height = 10;
-
-		if (bricks[i].x > 0)
-		{
-			bricks[i].x += gap_x;
-			gap_x += 45;
-		}
-		if (bricks[i].x + bricks[i].width > 600)
-		{
-			bricks[i].x = 50;
-			gap_x = 45;
-			bricks[i].x += gap_x;
-			bricks[i].y += gap_y;
-			gap_y += 15;
-			gap_x += 45;
-		}
-	}	
-}*/
-
-
 void init_bricks(int no_of_columns, int no_of_rows)
 {
 	int gap_x = 45;
